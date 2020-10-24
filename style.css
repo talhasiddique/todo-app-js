@@ -1,0 +1,105 @@
+
+* {
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    font-family: cursive;
+}
+.back{
+    margin: 0px 362px 0px 454px;
+    color: rgba(76, 197, 141, 0.87);
+    background: linear-gradient(272deg, #dae1e7, #bdd0e1);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: cursive;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    border-radius: 2px;
+    height: auto;
+    min-height: 700px;
+    width: 500px;
+    text-align: center;
+    display: inline-block;
+}
+.main{
+    background: linear-gradient(272deg, #dae1e7, #bdd0e1);
+    display: block;
+    position: relative;
+    width: 500px;
+    margin: 100px auto 0;
+}
+
+h1{
+    background: linear-gradient(272deg, #dae1e7, #bdd0e1);
+    color:#9a4545;
+    text-shadow: -1px -1px 2px #793333;
+}
+
+input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: cursive;
+    color: rgb(80, 73, 73);
+    box-shadow: 0px 0px 6px #d1c5c5;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border: 2px solid #35739c;
+}
+button {
+    background:  #4cc4d8;
+    border: 2px solid #2d8494;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 89px;
+    height: 31px;
+    margin: 10px 5px 0;
+    font-family: cursive;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px #2d9483;
+}
+button:focus{
+    outline: none;
+
+}
+button:active{
+    border-color: #9a4545;
+    background: #bb413be0;
+    color: #fdfdfd;
+    transform: scale(0.90); 
+    box-shadow: 0px 0px 2px #9a4545;
+}
+.lists{
+        background: none;
+        display: block;
+        width: 400px;
+        margin: 0px 15px 0px ;
+}
+ul{
+    background: linear-gradient(272deg, #dae1e7, #bdd0e1);
+    list-style-type: decimal;
+
+}
+
+li{
+    background: linear-gradient(272deg, #dae1e7, #bdd0e1);
+    text-shadow: 0 0 1px #23796b;
+    text-transform: capitalize;
+    font-size: 23px;
+    color: #23796b;
+    font-weight: 700;
+}
+
+
+li::marker{
+    color: #2d9483;
+    font-size: large;
+}
